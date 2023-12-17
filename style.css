@@ -1,0 +1,79 @@
+body{
+    background-color:rgba(29, 215, 16, 0.562);
+    background-image: url(./andy-hermawan-uFdCDgnoNVI-unsplash\ \(1\).jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+
+}
+
+.store{
+    display: inline-block;
+}
+
+h1{
+    text-transform: uppercase;
+    text-align: center;
+    background-color: rgba(0, 128, 0, 0.641);
+    color:rgb(242, 242, 242);
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.659);
+}
+
+.store button{
+    background-color: rgba(0, 189, 192, 0.781);
+    border-radius: 9px;
+    font-size:large;
+    box-shadow:2px 2px 5px rgba(7, 4, 4, 0.664);
+    border: none;
+}
+
+.store a{
+    display: block;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    background-color: #da1b1bf0;
+    padding: 2px 2px 5px;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.712);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.store .items{
+    position: absolute;
+}
+
+.store .items a:hover{
+    background-color: rgba(8, 160, 0, 0.733);
+}
+
+.store button:hover{
+    background-color: rgb(230, 230, 230);
+    cursor: pointer;
+}
+
+.items{
+    display: none;
+}
+
+.store:hover .items {
+    display: block;
+}
+
+span{
+    background-color: gold;
+    color: black;
+    border-radius: 9px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
